@@ -1,0 +1,23 @@
+/* CSS样式 */
+body {
+  font-family: Arial, sans-serif;
+}
+#searchInput {
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 8px;
+}
+#searchResults .search-result {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+#searchResults .search-result:hover {
+  background-color: #f0f0f0;
+}
+.highlight {
+  background-color: yellow;
+}
+strong {
+  display: block;
+}
